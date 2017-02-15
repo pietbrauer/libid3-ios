@@ -57,6 +57,7 @@
 		236018161E5468A8006BC587 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 236018151E5468A8006BC587 /* libiconv.tbd */; };
 		236018181E5468CA006BC587 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 236018171E5468CA006BC587 /* libz.tbd */; };
 		2360181A1E5468E3006BC587 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 236018191E5468E3006BC587 /* libc++.tbd */; };
+		2360181C1E54696F006BC587 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2360181B1E54696F006BC587 /* Launch Screen.storyboard */; };
 		325B854714CFED4E0061C897 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325B854614CFED4E0061C897 /* UIKit.framework */; };
 		325B854914CFED4E0061C897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325B854814CFED4E0061C897 /* Foundation.framework */; };
 		325B854B14CFED4E0061C897 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325B854A14CFED4E0061C897 /* CoreGraphics.framework */; };
@@ -100,6 +101,7 @@
 		236018151E5468A8006BC587 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		236018171E5468CA006BC587 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		236018191E5468E3006BC587 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2360181B1E54696F006BC587 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		325B854314CFED4E0061C897 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		325B854614CFED4E0061C897 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		325B854814CFED4E0061C897 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -232,6 +234,7 @@
 				325B854F14CFED4E0061C897 /* InfoPlist.strings */,
 				325B855214CFED4E0061C897 /* main.m */,
 				325B855414CFED4E0061C897 /* Example-Prefix.pch */,
+				2360181B1E54696F006BC587 /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 			files = (
 				325B855114CFED4E0061C897 /* InfoPlist.strings in Resources */,
 				325B855D14CFED4E0061C897 /* LIViewController.xib in Resources */,
+				2360181C1E54696F006BC587 /* Launch Screen.storyboard in Resources */,
 				325B857414CFF4D00061C897 /* amazing-grace-10s.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -28,7 +28,6 @@
     NSString *title = [NSString stringWithCString:(char const *) value encoding:NSUnicodeStringEncoding];
     NSLog(@"The title before is %@", title);
 
-
     // Write title tag
     tag.Link([docPath UTF8String]);
     tag.Strip(ID3TT_ALL);
